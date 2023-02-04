@@ -10,7 +10,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 	LOG("I am still here after %d seconds", 1);
 
 	int n = 7;
-	ASSERT(n == 7, "Above seven..");
+	ASSERT(n == 7, "Not seven..");
 
 	return 0;
 }
